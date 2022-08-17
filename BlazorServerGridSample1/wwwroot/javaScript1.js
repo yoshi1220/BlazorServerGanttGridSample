@@ -1,180 +1,360 @@
 ﻿function onColumnDataBound1(column, args) {
-    if (args.rowObject.Day1 == "1") {
+    if (args.rowObject.Day1 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day1 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day1 <= 8) {
         args.cellInfo.background = "green";
-    } 
+    } else {
+        args.cellInfo.background = "red";
+    }
 }
 
 function onColumnDataBound2(column, args) {
-    if (args.rowObject.Day2 == "1") {
+    if (args.rowObject.Day2<= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day2 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day2 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound3(column, args) {
-    if (args.rowObject.Day3 == "1") {
+    if (args.rowObject.Day3 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day3 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day3 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound4(column, args) {
-    if (args.rowObject.Day4 == "1") {
+    if (args.rowObject.Day4 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day4 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day4 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound5(column, args) {
-    if (args.rowObject.Day5 == "1") {
+    if (args.rowObject.Day5 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day5 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day5 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound6(column, args) {
-    if (args.rowObject.Day6 == "1") {
+    if (args.rowObject.Day6 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day6 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day6 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound7(column, args) {
-    if (args.rowObject.Day7 == "1") {
+    if (args.rowObject.Day7 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day7 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day7 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound8(column, args) {
-    if (args.rowObject.Day8 == "1") {
+    if (args.rowObject.Day8 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day8 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day8 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound9(column, args) {
-    if (args.rowObject.Day9 == "1") {
+    if (args.rowObject.Day9 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day9 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day9 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound10(column, args) {
-    if (args.rowObject.Day10 == "1") {
+    if (args.rowObject.Day10 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day10 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day10 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound11(column, args) {
-    if (args.rowObject.Day11 == "1") {
+    if (args.rowObject.Day11 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day11 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day11 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound12(column, args) {
-    if (args.rowObject.Day12 == "1") {
+    if (args.rowObject.Day12 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day12 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day12 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound13(column, args) {
-    if (args.rowObject.Day13 == "1") {
+    if (args.rowObject.Day13 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day13 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day13 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound14(column, args) {
-    if (args.rowObject.Day14 == "1") {
+    if (args.rowObject.Day14 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day14 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day14 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound15(column, args) {
-    if (args.rowObject.Day15 == "1") {
+    if (args.rowObject.Day15 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day15 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day15 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound16(column, args) {
-    if (args.rowObject.Day16 == "1") {
+    if (args.rowObject.Day16 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day16 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day16 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound17(column, args) {
-    if (args.rowObject.Day17 == "1") {
+    if (args.rowObject.Day17 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day17 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day17 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound18(column, args) {
-    if (args.rowObject.Day18 == "1") {
+    if (args.rowObject.Day18 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day18 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day18 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound19(column, args) {
-    if (args.rowObject.Day19 == "1") {
+    if (args.rowObject.Day19 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day19 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day19 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound20(column, args) {
-    if (args.rowObject.Day20 == "1") {
+    if (args.rowObject.Day20 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day20 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day20 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound21(column, args) {
-    if (args.rowObject.Day21 == "1") {
+    if (args.rowObject.Day21 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day21 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day21 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound22(column, args) {
-    if (args.rowObject.Day22 == "1") {
+    if (args.rowObject.Day22 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day22 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day22 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound23(column, args) {
-    if (args.rowObject.Day23 == "1") {
+    if (args.rowObject.Day23 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day23 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day23 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound24(column, args) {
-    if (args.rowObject.Day24 == "1") {
+    if (args.rowObject.Day24 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day24 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day24 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound25(column, args) {
-    if (args.rowObject.Day25 == "1") {
+    if (args.rowObject.Day25 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day25 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day25 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound26(column, args) {
-    if (args.rowObject.Day26 == "1") {
+    if (args.rowObject.Day26 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day26 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day26 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound27(column, args) {
-    if (args.rowObject.Day27 == "1") {
+    if (args.rowObject.Day27 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day27 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day27 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound28(column, args) {
-    if (args.rowObject.Day28 == "1") {
+    if (args.rowObject.Day28 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day28 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day28 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound29(column, args) {
-    if (args.rowObject.Day29 == "1") {
+    if (args.rowObject.Day29 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day29 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day29 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
 function onColumnDataBound30(column, args) {
-    if (args.rowObject.Day30 == "1") {
+    if (args.rowObject.Day30 <= 0) {
+        args.cellInfo.background = "white";
+    } else if (args.rowObject.Day30 <= 4) {
+        args.cellInfo.background = "blue";
+    } else if (args.rowObject.Day30 <= 8) {
         args.cellInfo.background = "green";
+    } else {
+        args.cellInfo.background = "red";
     }
 }
 
