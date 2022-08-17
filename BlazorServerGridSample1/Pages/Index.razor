@@ -1,0 +1,66 @@
+﻿@page "/"
+
+<PageTitle>Gantt Chart DataGrid</PageTitle>
+
+@using BlazorServerGridSample1.Data
+@inject GanttService GanttSerivce;
+@inject IIgniteUIBlazor IgniteUIBlazor;
+
+
+<h1>ガントチャート風DataGrid</h1>
+
+@if (gantts == null)
+{
+        <p><em>Loading...</em></p>
+}
+else
+{
+        <IgbDataGrid Height="100%"
+             Width="100%"
+             DataSource="gantts">
+            <IgbTextColumn Width="@("*>120")" Field="Name" />
+            <IgbTemplateColumn Width="@("40")" Field="Day1" DataBoundScript="onColumnDataBound1" />
+            <IgbTemplateColumn Width="@("40")" Field="Day2" DataBoundScript="onColumnDataBound2" />
+            <IgbTemplateColumn Width="@("40")" Field="Day3" DataBoundScript="onColumnDataBound3" />
+            <IgbTemplateColumn Width="@("40")" Field="Day4" DataBoundScript="onColumnDataBound4" />
+            <IgbTemplateColumn Width="@("40")" Field="Day5" DataBoundScript="onColumnDataBound5" />
+            <IgbTemplateColumn Width="@("40")" Field="Day6" DataBoundScript="onColumnDataBound6" />
+            <IgbTemplateColumn Width="@("40")" Field="Day7" DataBoundScript="onColumnDataBound7" />
+            <IgbTemplateColumn Width="@("40")" Field="Day8" DataBoundScript="onColumnDataBound8" />
+            <IgbTemplateColumn Width="@("40")" Field="Day9" DataBoundScript="onColumnDataBound9" />
+            <IgbTemplateColumn Width="@("40")" Field="Day10" DataBoundScript="onColumnDataBound10" />
+            <IgbTemplateColumn Width="@("40")" Field="Day11" DataBoundScript="onColumnDataBound11" />
+            <IgbTemplateColumn Width="@("40")" Field="Day12" DataBoundScript="onColumnDataBound12" />
+            <IgbTemplateColumn Width="@("40")" Field="Day13" DataBoundScript="onColumnDataBound13" />
+            <IgbTemplateColumn Width="@("40")" Field="Day14" DataBoundScript="onColumnDataBound14" />
+            <IgbTemplateColumn Width="@("40")" Field="Day15" DataBoundScript="onColumnDataBound15" />
+            <IgbTemplateColumn Width="@("40")" Field="Day16" DataBoundScript="onColumnDataBound16" />
+            <IgbTemplateColumn Width="@("40")" Field="Day17" DataBoundScript="onColumnDataBound17" />
+            <IgbTemplateColumn Width="@("40")" Field="Day18" DataBoundScript="onColumnDataBound18" />
+            <IgbTemplateColumn Width="@("40")" Field="Day19" DataBoundScript="onColumnDataBound19" />
+            <IgbTemplateColumn Width="@("40")" Field="Day20" DataBoundScript="onColumnDataBound20" />
+            <IgbTemplateColumn Width="@("40")" Field="Day21" DataBoundScript="onColumnDataBound21" />
+            <IgbTemplateColumn Width="@("40")" Field="Day22" DataBoundScript="onColumnDataBound22" />
+            <IgbTemplateColumn Width="@("40")" Field="Day23" DataBoundScript="onColumnDataBound23" />
+            <IgbTemplateColumn Width="@("40")" Field="Day24" DataBoundScript="onColumnDataBound24" />
+            <IgbTemplateColumn Width="@("40")" Field="Day25" DataBoundScript="onColumnDataBound25" />
+            <IgbTemplateColumn Width="@("40")" Field="Day26" DataBoundScript="onColumnDataBound26" />
+            <IgbTemplateColumn Width="@("40")" Field="Day27" DataBoundScript="onColumnDataBound27" />
+            <IgbTemplateColumn Width="@("40")" Field="Day28" DataBoundScript="onColumnDataBound28" />
+            <IgbTemplateColumn Width="@("40")" Field="Day29" DataBoundScript="onColumnDataBound29" />
+            <IgbTemplateColumn Width="@("40")" Field="Day30" DataBoundScript="onColumnDataBound30" />
+
+        </IgbDataGrid>
+
+
+}
+
+@code {
+    private IList<Gantt> gantts;
+
+    protected override void OnInitialized()
+    {
+        IgbDataGridModule.Register(IgniteUIBlazor);
+        gantts = GanttSerivce.GetGanttData();
+    }
+}
